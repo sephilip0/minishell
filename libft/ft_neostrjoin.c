@@ -23,7 +23,6 @@ char	*ft_neostrjoin(char *s1, char *s2, int parfree)
 
 	len1 = ft_strlen(s1);
 	len2 = ft_strlen(s2);
-	printf("neostr: %ld", len1 + len2 + 1);
 	str = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 	if (!str)
 		return (NULL);
